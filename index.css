@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+.perentbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 230, 0);
+}
+.perentbox1{
+      
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation-name: example;
+    
+}
+
+
+
+
+.perentbox2{padding: 1%; transition-property: width;
+    transition-duration: 5s;
+    
+    background-image: url(./image/bg-products2.webp),url(./image/bg-products2\ \(1\).webp);
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.div1{
+font-size: 40px;
+color: white;
+}
+.div1:hover{
+    color: black;
+}
+.div2{display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+/*.rightbox{
+    height: 9%;
+    width: 50%;
+    padding: 1%;
+    
+    background-color: rgb(252, 238, 49);
+}
+.rightbox-1{
+    margin-right: auto;height: auto;
+}
+.rightbox-2{display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+
+}*/
+
+span{padding: 12%;
+    border-radius: 100px;
+    background-color: rgb(201, 12, 12);
+
+}
+.id{
+    width: 6%;position: absolute;
+    top: 1%;
+}
+.flextop-1,.flexbox-2{
+    font-size: 119%;
+    font-family: sans-serif;
+    padding: 2%;
+}
+.flexbox-1:hover{
+    background-color: rgb(201, 12, 12);
+
+}
+@media(max-width:1292px)
+{
+    .flexbox-1{
+        display: none;
+    }
+    /*@media only screen and (max-width: 1292px) {
+        /* For mobile phones: 
+        [class*="flexbox-1"] {
+          width: 100%;
+        } */
+
+}
+ul{
+    display: flex;
+}
+.flexsecond{
+    height: 100%;
+    width: 789px;
+    padding: 2%;
+    
+    
+}
+H1{
+    font-family: monospace;
+}
+.second{
+    height: fit-content;
+    width: fit-content;
+    padding: 2%;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    
+}
+.text{background-color: white;
+    font-size: x-large;padding: 3%;
+    border-radius: 10px; 
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.span{text-align: center;
+    background-color: rgb(248, 93, 37);
+    border-radius: 46%;
+    padding: 2%;
+
+}
+.span:hover{
+    background-color: rgb(255, 238, 0);
+}
+.second-2{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 21px;
+}.perentbox3{padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    height: auto;
+    width: 100%;
+}
+i{
+    font-size:70px;
+    color: rgb(238, 186, 16);
+    text-align: end;
+}
+.perentbox-6{padding: 2%;
+    justify-content:center;
+}
+.icon{display: flex;
+    flex-wrap: wrap;
+justify-content: center;padding-right: 31px;
+}
+ul{display: flex;
+    list-style: none;
+}
+li{color: rgb(243, 221, 22);
+    font-size: 30px;
+    padding: 20px;
+}
+.fa:hover{ transition-property: image;
+    transition-duration: 4s;
+    transform: scaleY(1.5);
+    transition-duration: 1s;
+    color: black;
+    
+
+}
+.cantainer{padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 6%;
+
+}
+.box-1{
+background-color: rgb(201, 12, 12) ;
+}
+.box-2{
+ background-color: green;
+}
+.box-3{
+ background-color: rgb(97, 203, 245);
+}
+.img:hover{transition-property: image;
+    transition-duration: 4s;
+    transform: scaleY(1.1);
+    
+    
+}
+.img{
+    border-radius: 6%;
+}
+.row:hover{
+    transition-property: image;
+    transition-duration: 4s;
+    transform: scaleY(1.1);
+    
+}
+.footer{background-color: rgb(233, 212, 21);
+    text-align: center;
+    flex-wrap: wrap;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+   flex-wrap: wrap;
+}
+.cont{
+    padding: 3%;
+    font-size: 24px;
+
+}
+.cont:hover{ transition-property: image;
+    transition-duration: 4s;
+    transform: scaleY(1.5);color: rgb(255, 145, 0);
+
+}
+.flextop-1:hover{transition-property: text;
+    transition-duration: 4s;
+    transform: scaleY(1.5);
+    
+}
+.rotate:hover{-webkit-transform: rotate3d(-30deg);
+   -ms-transform: rotate3d(-30deg);
+   transform: rotate3d(-30deg);
+}
+video{
+width: 100%;
+}
+.cant{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.cow{
+    padding: 1%;
+}
